@@ -1,0 +1,172 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+ h2 {
+
+		font-weight: 300;
+    font-size: 1.6em;
+		line-height: 1.5em;
+		margin: 1em 0 1em 0;
+		text-transform: uppercase;
+    color: #555;
+}
+
+h3 {
+    font-weight: 300;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+    font-size: 1.2em;
+		line-height: 1.5em;
+    color: #555;
+
+}
+
+p{
+  margin: 0 0 2em 0;
+  color: #555;
+  font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.banner {
+		background-color: #ff2400;
+		color: #ffffff;
+		padding: 2em 0 2em 0;
+
+    border-color: #ff2400;
+		text-align: center;
+}
+
+.button {
+		background-color: #f7f7f7;
+		color: #555 !important;
+}
+
+.social {
+ align: center;
+}
+
+.icons {
+
+  margin-bottom: 2.5em;
+  margin-top: 0.5em;
+  padding: 0em;
+  list-style-type: none;
+  text-align: center;
+
+}
+
+.fa {
+  color: #ff2400;
+  font-size: 45px;
+}
+
+.object {
+    display: inline;
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+.box {
+  border-color: white;
+  border-style: double;
+  border-width: medium;
+  display: inline-block;
+  align-self: center;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-size: 3vw;
+  text-align:center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.inner {
+  text-align: center;
+  align-content: center;
+}
+
+.title {
+  display: inline-block;
+  padding-bottom: 0.4em;
+  border-bottom-style: double;
+  border-bottom-width: 4px;
+}
+
+
+/* Feature */
+
+	.features {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		margin-bottom: 2em;
+	}
+
+	.feature {
+		padding: 2em 2em 0.1em 2em;
+		border-style: solid;
+		border-width: 1px;
+		margin-left: -1px;
+		margin-top: -1px;
+		width: 33.33333%;
+	}
+
+		.feature .fa {
+			font-size: 2.8em;
+			margin-bottom: 0.7em;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.feature {
+				padding: 2em 1.5em 0.1em 1.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.feature {
+				padding: 2em 1em 0.1em 1em;
+				width: 50%;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.feature {
+				padding: 2em 0.5em 0.1em 0.5em;
+				width: 100%;
+			}
+
+		}
+
+	.feature {
+		border-color: #e3e3e3;
+	}
+
+		.feature .fa {
+			color: #ff2400;
+		}
